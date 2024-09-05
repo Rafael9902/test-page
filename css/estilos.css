@@ -1,0 +1,91 @@
+html {
+    --green: #33ffb5;
+    --black: #000;
+    --blue: #9dfcff;
+    --purple: #c89dff;
+    --white: #FFF;
+    --pink: #EAD0EE;
+}
+
+.background {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border: none;
+     z-index: -1;
+ }
+
+
+.title {
+    text-align: center;
+    color: var(--white);
+    font-size: 50px;   
+    position: relative;
+    font-weight: 700;
+}
+
+
+.fish-list {
+    position: relative;
+    font-size: 25px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.sea {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shark {
+    animation: shark-movement ease-in-out 5.5s infinite;
+    width: 500px;
+    z-index: 1;
+}
+
+.fish {
+    animation: fish-movement linear 10s infinite;
+}
+
+.fish--small {
+    width: 120px;
+    height: 120px;
+
+}
+
+.fish--medium {
+    width: 200px;
+    height: 200px;
+    animation: fish-movement reverse 10s infinite;
+}
+
+.fish--big {
+    width: 300px;
+    height: 300px;
+}
+
+.puffer-fish {
+    animation: puffer-fish-movement reverse 10s infinite;
+}
+
+.cruise {
+    position: relative;
+    width: 500px;
+}
+
+.beta--fish{
+    width: 200px;
+    height: 300px;
+}
+
+p {
+    color: var(--white);
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #C8C6B6;
+    font-weight: 700;
+}

@@ -1,0 +1,46 @@
+/* Movimiento */
+@keyframes shark-movement {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(50%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fish-movement {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes puffer-fish-movement {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translatey(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
