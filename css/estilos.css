@@ -83,9 +83,68 @@ html {
 p {
     color: var(--white);
     font-weight: 700;
+    font-size: large;
 }
 
-h1, h2, h3, h4, h5 {
-    color: #C8C6B6;
+h1, h2, h3, h4, h5,h6{
+    color: #ffffff;
     font-weight: 700;
+    font-size: larger;
+}
+
+
+.navbar {
+    height: 25px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    margin: 20px 0;
+    /* justify-content: space-evenly; */
+    /* margin-bottom: 0rem; */
+}
+
+.navbar-item {
+    width: 50%;
+    text-align: center;
+}
+
+.item-link {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.navbar-item:hover{
+    cursor: pointer;
+    background-color: salmon;
+    border-radius: 20px 0 0 20px;
+}
+
+.second:hover {
+    border-radius: 0 20px 20px 0;
+}
+
+.navbar-item:hover .item-link {
+    color: var(--white);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fish-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tipo-de-letra {
+    margin: 30px;
+}
+
+.contaminacion{
+    margin: 30px;
 }
