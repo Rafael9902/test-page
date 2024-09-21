@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5,h6{
     text-align: center;
 }
 
-.item-link {
+.navbar-item {
     font-size: 20px;
     text-transform: capitalize;
 }
@@ -116,10 +116,14 @@ h1, h2, h3, h4, h5,h6{
 .navbar-item:hover{
     cursor: pointer;
     background-color: salmon;
+}
+
+.navbar-item:first-child:hover {
     border-radius: 20px 0 0 20px;
 }
 
-.second:hover {
+
+.navbar-item:last-child:hover {
     border-radius: 0 20px 20px 0;
 }
 
